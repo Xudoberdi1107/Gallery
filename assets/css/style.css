@@ -1,5 +1,198 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: #2B2B2B;
+  overflow-x:hidden;
+}
+nav{
+  display: flex;
+  gap: 580px;
+  justify-content: center;
+  padding: 20px;
+}
+nav ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+nav li a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px; 
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
+nav li a:hover{
+  text-shadow: 2px 2px 5px gray;
+}
+.violet{
+  background-color: #A259FF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 13px;
+  border-radius: 10px;
+}
+.violet i{
+  padding: 5px;
+}
+.violet:hover{
+  background-color: #492775;
+}
+.logo a{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  text-decoration: none;
+}
+.logo i{
+  color: #A259FF;
+  padding: 10px;
+  flex-shrink: 0;
+  font-size: 28px;
+}
+.box{
+  display: flex;
+  gap: 70px;
+}
+.text h2{
+  color: var(--White, #FFF);
+  font-family: Work Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; 
+  text-transform: capitalize;
+}
+.text p{
+  color: var(--White, #d0cdcd);
+  margin-left: 10px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 160%; 
+  text-transform: capitalize;
+}
+input{
+  border: none;
+  left: -30px;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid var(--caption-label-text, #858584);
+  background: var(--Text, #FFF);
+}
+.form i {
+  font-size: 20px;
+  color: gray;
+  width: 35px;
+  height: 35px;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  left: 15px;
+  top: 8px;
+  z-index: 1;
+  float: left;
+}
+::-webkit-input-placeholder{
+  color: black;
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: 15px;
+}
+.form i + input {
+  padding-left: 60px;
+}
+button{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: var(--Call-to-Action, #A259FF);
+  width: 300px;
+  font-family: Work Sans;
+  font-size: 15px;
+  border: none;
+}
+.img img{
+  width: 780px;
+  height: 600px;
+}
+footer{
+  background-color: var(--Background---Secondary, #3B3B3B);
+}
+.div{
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+footer h3{
+  color: #FFF;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+.box1 h3 i{
+
+  color: #A259FF;
+  padding-right: 10px;
+}
+footer p{
+  color: #CCC;
+  
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%; /* 22.4px */
+}
+.box1 i{
+  padding: 10px 5px;
+  font-size: 25px;
+  color: #CCC;
+}
+.box2 ul{
+  list-style: none;
+}
+.box2 li a{
+  text-decoration: none;
+  color: #CCC;
+  font-family: Work Sans;
+}
+.box3 input{
+  width: 350px;
+  height: 50px;
+  margin-left: 30px;
+  border: none;
+}
+.box3 button{
+  position: relative;
+  left: -180px;
+  width: 150px;
+  height: 52px;
+  margin-top: 2px;
+  border: none;
+}
+.hr{
+  border-bottom: 1px solid #858584;
+  width: 1300px;
+  margin-left: 100px;
+}
+.p{
+  padding: 20px 200px;
+}
+button:hover{
+  background-color: #492775;
+  color: white;
+  text-shadow: 2px 2px 5px gray;
 }
